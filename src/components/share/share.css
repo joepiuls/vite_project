@@ -1,0 +1,75 @@
+.share{
+    width: 100%;
+    height: 170px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1),
+                0 1px 3px rgba(0, 0, 0, 0.08);
+    margin-top: 20px;
+}
+
+.share_wrapper{
+    padding: 10px;
+}
+
+.share_top{
+    display: flex;
+    align-items: center;
+}
+
+.share_input{
+    border: none;
+    width: 80%;
+    margin-left: 10px;
+    font-size: medium;
+}
+
+.share_input:focus{
+    outline: none;
+}
+
+.shareprofile_img{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.sharehr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.share_buttom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.share_options{
+    display: flex;
+}
+
+
+.share_option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.shareoption_text{
+    margin-left: 2px;
+}
+
+.share_button{
+    border: none;
+    background: rgb(1, 77, 35);
+    padding: 8px 6px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}

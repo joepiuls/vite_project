@@ -1,0 +1,5 @@
+.home_container{
+    display: flex;
+    gap: 15px;
+    width: 100%;
+}
